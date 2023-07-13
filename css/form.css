@@ -1,0 +1,51 @@
+.form__fieldset {
+  border: 3px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.form__legend {
+  font-family: "Outfit";
+  color: #333333;
+  text-transform: uppercase;
+  background-color: #e8ddb5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form__inputPln,
+.form__select {
+  margin-left: 10px;
+}
+
+.form__labelPln {
+  margin-right: 50px;
+}
+
+.form__result {
+  margin: 50px;
+  font-size: 30px;
+}
+
+.form__button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #ff6f61;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  margin: 20px;
+}
+
+.form__button:hover {
+  background-color: #b7ad8c;
+}
+
+.form__button:active {
+  background-color: #f1efea;
+}

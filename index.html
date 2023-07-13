@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/KantorHubert/css/style.css" />
+    <link rel="stylesheet" href="/KantorHubert/css/form.css" />
+    <link rel="stylesheet" href="/KantorHubert/css/container.css" />
+    <script defer src="/KantorHubert/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Kantor</title>
+    <link rel="icon" href="/KantorHubert/images/logo2.png" />
+    <meta property="og:image" content="images/kantor.png" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form js-form">
+        <fieldset class="form__fieldset">
+          <legend class="form__legend">Kantor wymiany walut</legend>
+
+          <p>
+            <label id="labelPln" class="form__labelPln"
+              >Podaj kwote w zł*:
+              <input
+                name="labelPln"
+                id="labelPln"
+                step="any"
+                type="number"
+                class="js-pln form__inputPln"
+              />
+            </label>
+
+            <label class="form__labelcurrency">Wybierz walute: </label>
+            <select class="js-currency form__select">
+              <option value="EUR">Euro</option>
+              <option value="USD">Dolar</option>
+              <option value="CHF">Frank</option>
+            </select>
+          </p>
+
+          <p class="js-result form__result"></p>
+
+          <button class="form__button">Przelicz</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
